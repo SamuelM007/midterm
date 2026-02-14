@@ -8,8 +8,31 @@
   <body>
     <header>
       <img src="https://bit.ly/305-vacation" alt="" />
+      <h1>Book Your Dream Vacation</h1>
     </header>
-    <form></form>
+    <form>
+      <span> Destination </span>
+      <select>
+        <option>Choose a destination...</option>
+        <option>London, United Kingdom</option>
+        <option>Paris, France</option>
+        <option>Berlin, Germany</option>
+        <option>Rome, Italy</option>
+        <option>Madrid, Spain</option>
+      </select>
+
+      <label for="date">
+        Departure Date:
+        <input type="date" id="date" name="date" />
+      </label>
+
+      <label for="number">
+        Number of Travelers:
+        <input type="number" id="number" name="number" />
+      </label>
+
+      <button type="submit">Find My Vacation</button>
+    </form>
     <footer></footer>
   </body>
 </html>
